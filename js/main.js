@@ -7,7 +7,7 @@ async function apiRequest(){
         const data = await response.json()
 
         console.log(data)
-        document.querySelector('h2').innerText = data.origin , data.protein , data.price, data.healthy
+        document.querySelector('h2').innerText = data.origin
     }catch(error){
         console.log(error)
     }
