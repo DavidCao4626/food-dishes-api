@@ -14,7 +14,7 @@ let dishes = {
         'healthy': 'Not really',
     },
     'steak':{
-        'origin': 'Italy',
+        'origin': 'America',
         'protein': 'Cow',
         'price': 'Expensive', 
         'healthy': 'In moderation',
@@ -26,10 +26,10 @@ let dishes = {
         'healthy': 'No but it is delicious',
     },
     'notfood':{
-        'origin': 'N/A',
-        'protein': 'N/A',
-        'price': 'N/A', 
-        'healthy': 'Cannot be healthy',
+        'origin': 'This is not food!',
+        'protein': 'Stop it!',
+        'price': 'Go eat somewhere else!', 
+        'healthy': 'Go exercise!',
     },
 }
 
