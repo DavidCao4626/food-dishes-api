@@ -43,6 +43,6 @@ app.get('/api/:name', (request,response)=>{
     response.json(dishes)
 })
 
-app.listen(PORT, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
     console.log(`The server is now running on port${PORT}! Check me Out!!`)
 })
