@@ -1,6 +1,10 @@
 const express = require('express')
 const app = express()
+const cors = requires('cors')
 const PORT = 8000
+
+
+app.use(cors())
 
 let dishes = {
     'pizza': {
